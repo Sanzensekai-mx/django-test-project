@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock title %}</title>
+</head>
+<body>
+  <a href="/about">About</a>
+  <a href="/contacts">Contacts</a>
+  <hr>
+  {% block content %}
+  {% endblock content %}
+</body>
+</html>
